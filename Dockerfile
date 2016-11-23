@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM fedora:25
 MAINTAINER Matthew Schick <matthew.schick@gmail.com>
 
 # Add rpmfusion repo, do package updates and installs

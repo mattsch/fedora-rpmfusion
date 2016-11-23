@@ -10,6 +10,6 @@ FROM mattsch/fedora-rpmfusion
 ```
 
 Currently following tags are active and follow upstream Fedora:
-* latest, 24
+* latest, 25
+* 24
 * 23
-* 22

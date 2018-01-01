@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM fedora:27
 MAINTAINER Matthew Schick <matthew.schick@gmail.com>
 
 ARG FEDVER=27

@@ -4,8 +4,9 @@ services:
   - docker
 
 env:
-  - IMG_NAME="docker.io/mattsch/fedora-rpmfusion"
-  - VER="27"
+  global:
+    - IMG_NAME="docker.io/mattsch/fedora-rpmfusion"
+    - VER="27"
 script:
   - 'docker login -u "$D_U" -p "$D_P"'
   - 'docker build --build-arg FEDVER=${VER} -t ${IMG_NAME}:${VER} -t ${IMG_NAME}:latest .'

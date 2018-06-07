@@ -11,4 +11,4 @@ FROM mattsch/fedora-rpmfusion
 ```
 
 Currently following tags are active and follow upstream Fedora:
-* latest, 27
+* latest, 28

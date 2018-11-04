@@ -1,7 +1,7 @@
-FROM fedora:28
+FROM fedora:29
 MAINTAINER Matthew Schick <matthew.schick@gmail.com>
 
-ARG FEDVER=28
+ARG FEDVER=29
 
 # Add rpmfusion repo, do package updates and installs
 RUN dnf install -yq \
